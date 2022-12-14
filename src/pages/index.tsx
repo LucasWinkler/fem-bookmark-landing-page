@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import Header from 'components/Header';
 import Footer from 'components/Footer';
-import ArrowIcon from 'components/icons/ArrowIcon';
+import Hero from 'components/Hero';
 
 export default function Home() {
   return (
@@ -15,7 +15,9 @@ export default function Home() {
       </Head>
 
       <Header />
-      <main>Main</main>
+      <main>
+        <Hero>Yo</Hero>
+      </main>
       <Footer />
     </>
   );
