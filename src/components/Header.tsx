@@ -4,15 +4,14 @@ import Logo from 'components/Logo';
 import Link from 'next/link';
 import Container from 'components/Container';
 import Button from 'components/Button';
-import clsx from 'clsx';
 
 const Header: FC = () => {
   return (
     <>
       <header className='py-12'>
         <Container className='flex items-center justify-between'>
-          <Link className='text-very-dark-blue' href='/'>
-            <Logo />
+          <Link className='' href='/'>
+            <Logo style='Primary' />
           </Link>
           <nav className='text-[0.8125rem]'>
             <ul className='flex items-center justify-between gap-11 text-very-dark-blue'>
