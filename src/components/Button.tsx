@@ -11,7 +11,8 @@ const button = cva(
       variant: {
         primary: 'bg-blue text-white hover:text-blue outline-current',
         secondary: 'bg-red text-white hover:text-red outline-current',
-        monochrome: 'bg-light-gray text-very-dark-blue outline-grayish-blue',
+        monochrome:
+          'bg-light-gray text-very-dark-blue text-opacity-75 outline-grayish-blue',
       },
       modifier: {
         outline: 'bg-transparent border border-current',

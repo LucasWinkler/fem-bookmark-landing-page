@@ -8,6 +8,6 @@
   }
 
   body {
-    @apply min-h-screen text-lg antialiased;
+    @apply min-h-screen text-lg text-very-dark-blue text-opacity-75 antialiased;
   }
 }

@@ -15,24 +15,24 @@ const Header: FC = () => {
             <Logo />
           </Link>
           <nav className='text-[0.8125rem]'>
-            <ul className='flex items-center justify-between gap-11'>
+            <ul className='flex items-center justify-between gap-11 text-very-dark-blue'>
               <li className=''>
                 <Link
-                  className='uppercase tracking-widest transition-colors duration-200 ease-in hover:text-red'
+                  className='uppercase tracking-widest transition-colors duration-150 ease-in hover:text-red'
                   href='/'>
                   Features
                 </Link>
               </li>
               <li className=''>
                 <Link
-                  className='uppercase tracking-widest transition-colors duration-200 ease-in hover:text-red'
+                  className='uppercase tracking-widest transition-colors duration-150 ease-in hover:text-red'
                   href='/'>
                   Pricing
                 </Link>
               </li>
               <li className=''>
                 <Link
-                  className='uppercase tracking-widest transition-colors duration-200 ease-in hover:text-red'
+                  className='uppercase tracking-widest transition-colors duration-150 ease-in hover:text-red'
                   href='/'>
                   Contact
                 </Link>
